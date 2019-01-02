@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+header {
+  margin-top: 10px;
+  text-align: center;
+}
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #696969;
+}
+
+.header-img {
+  width: 160px;
+  border-radius: 50%;
+}
+.icons {
+  line-height: 20px;
+}
+
+.icons i {
+  color: #696969;
+  margin: 10px;
+  transition: all 0.5s ease-out;
+}
+
+.icons i:hover {
+  cursor: pointer;
+  color: steelblue;
+}
+.grid-container {
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+.about {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.about > .heading {
+  margin-bottom: 10px;
+  color: #696969;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+.edu-item {
+  margin: 10px;
+}
+.edu-item > p::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  left: -1px;
+  position: absolute;
+  background: url(/img/code.png);
+}
+.education > .heading {
+  margin-bottom: 10px;
+  color: #696969;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.professional > .heading {
+  margin-bottom: 20px;
+  color: #696969;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.personal > .heading {
+  margin-bottom: 20px;
+  color: #696969;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.projects {
+  grid-column: 1 / -1;
+}
+
+.projects li {
+  margin: 10px;
+}
+
+.git-btn {
+  color: steelblue;
+  margin-left: 10px;
+  border: 2px solid steelblue;
+  padding: 2px;
+  transition: all 0.5s ease-out;
+}
+
+.git-btn:hover {
+  color: white;
+  cursor: pointer;
+  background-color: steelblue;
+}
+
+.projects > .heading {
+  margin-bottom: 20px;
+  color: #696969;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.projects a {
+  text-decoration: none;
+}
+.w3-small {
+  margin: 10px;
+}
+
+@media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
