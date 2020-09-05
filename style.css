@@ -95,6 +95,10 @@ header {
   margin: 10px;
 }
 
+.experience {
+  grid-column: 1 / -1;
+}
+
 .git-btn {
   color: steelblue;
   margin-left: 10px;
@@ -110,6 +114,14 @@ header {
 }
 
 .projects > .heading {
+  margin-bottom: 20px;
+  color: #696969;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.experience > .heading {
   margin-bottom: 20px;
   color: #696969;
   font-weight: bold;
